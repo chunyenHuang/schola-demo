@@ -3,7 +3,10 @@
 
 ## Goal
 建立一個簡單的學生註冊單，需有下面的功能：  
+
 1. 欄位項目與格式  
+2. 送出欄位之後顯示結果  
+
 ```
     {
         firstName: STRING,
@@ -24,12 +27,11 @@
         ]
     }
 ```
-2. 送出欄位之後顯示結果  
 
 ## Approach
 1. HTML5 / CSS  
     可使用任何library, Angular Material, Bootstrap...  
-2. Javascript
+2. Javascript  
     可使用純Javascript或是任何library如jQuery等...  
 
 ## Note
