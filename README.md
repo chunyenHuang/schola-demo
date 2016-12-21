@@ -1,4 +1,7 @@
 # Project: Schola
+### update: 12/20
+  請參考 [Project1](https://github.com/chunyenHuang/schola-demo/tree/master/project1#your-first-project) 並動手做做看～
+# Start From Here
 Hello 鄉民朋友，  
 感謝你們有興趣參與這個計畫，案子約會在明年一月中開始，主要的目的是建構一個完整的學校系統，對象從小型的補習班(未來有可能獲利的對象)，到1000人左右的小型學校（目前的客戶，非營利組織學校）。  
 內容將包含：    
