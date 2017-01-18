@@ -4,12 +4,13 @@
 ## GetStarted
 ### 使用 [Node File System](https://nodejs.org/api/fs.html) 讀取和寫入資料 (students.json)  
 ```
-// Read Data
-const filePath = './students.json';
-fs.readFile(filePath, (err, data) => {
-    if (err) throw err;
-    console.log(data);
-});
+// .json 可以直接require讀取，寫入則需要使用fs.
+const path = require('path');
+const fs = require('fs');
+const filePath = path.join(__dirname, 'students.json');
+const studentDatas = require(filePath);
+// handle datas
+fs.writeFile(filePath, JSON.stringify(studentDatas, null, 4));
 ```
 ### 建立你的npm repo，並安裝[Express](http://expressjs.com/en/starter/installing.html)
 ```
@@ -44,4 +45,4 @@ serverApp.put('/student', (req, res) => {
 ```
 ## 檔案
 1. server.js
-2. students.json
+2. [students.json](https://github.com/chunyenHuang/schola-demo/blob/master/project2/students.json)
