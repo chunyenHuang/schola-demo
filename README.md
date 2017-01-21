@@ -2,7 +2,6 @@
 ### update: 01/21/2017
   [Project3 - Express Router, MongoDB](https://github.com/chunyenHuang/schola-demo/blob/master/project3/README.md#project-3)  
 ### update: 01/18/2017
-# Project: Schola
   [Project2 - ExpressJS, NodeJS](https://github.com/chunyenHuang/schola-demo/blob/master/project2/README.md#project-2)  
   一共會有四個練習，除了第一個比較簡單的可以跳過外，剩下的都必須要完成，我才會把你加入Schola的計畫裡~ 請大家有空盡量做。
 ### update: 12/20/2016
